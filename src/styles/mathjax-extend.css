@@ -1,0 +1,16 @@
+mjx-container[jax="SVG"] {
+	direction: 'ltr';
+	overflow-x: auto;
+}
+
+mjx-container[jax="SVG"] > svg {
+	overflow: visible;
+	min-height: 1px;
+	min-width: 1px;
+	display: inline-block;
+}
+
+mjx-container[jax="SVG"] > svg a {
+	fill: 'blue';
+	stroke: 'blue';
+}
